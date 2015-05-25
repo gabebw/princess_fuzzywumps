@@ -10,3 +10,7 @@ Examples:
 * Count Jazzysnout
 
 It runs on Padrino because I wanted to check out Padrino.
+
+## Setup
+
+Run `./bin/setup`.
