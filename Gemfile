@@ -15,7 +15,7 @@ gem 'rake'
 
 # Component requirements
 gem 'sass'
-gem 'slim'
+gem 'erubis'
 
 # Test requirements
 gem 'rspec', :group => 'test'
