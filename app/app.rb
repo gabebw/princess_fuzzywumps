@@ -10,7 +10,7 @@ module PrincessFuzzywumps
     set :logging, true
 
     get "/" do
-      "Princess Fuzzywumps"
+      redirect "/names"
     end
   end
 end
