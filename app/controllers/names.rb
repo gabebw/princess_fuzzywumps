@@ -1,6 +1,7 @@
 PrincessFuzzywumps::App.controllers :names do
   get :index do
-    @name = "Princess Fuzzywumps"
+    @name = NameGenerator.new.generate
+
     render "names/index"
   end
 end

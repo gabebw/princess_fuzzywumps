@@ -1,11 +1,13 @@
 require 'spec_helper'
 
 RSpec.describe "/names" do
-  before do
-    get "/names"
-  end
-
   it "returns an adorable name" do
-    expect(last_response.body).to include "Princess Fuzzywumps"
+    name = "Princess Fuzzywumps"
+    generator = double(generate: name)
+    allow(NameGenerator).to receive(:new).and_return(generator)
+
+    get "/names"
+
+    expect(last_response.body).to include name
   end
 end
