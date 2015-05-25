@@ -1,5 +1,5 @@
 PrincessFuzzywumps::App.controllers :names do
   get :index do
-    "Princess Fuzzywumps"
+    render "names/index"
   end
 end

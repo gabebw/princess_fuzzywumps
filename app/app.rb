@@ -4,6 +4,8 @@ module PrincessFuzzywumps
     register Padrino::Mailer
     register Padrino::Helpers
 
+    layout :default
+
     enable :sessions
 
     # Log to STDOUT
