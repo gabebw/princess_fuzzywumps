@@ -36,6 +36,10 @@ class NameGenerator
     "nose",
     "bear",
     "cakes",
+    "monkey",
+    "bunny",
+    "kitty",
+    "puppy",
   ]
 
 
