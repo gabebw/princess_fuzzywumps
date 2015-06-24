@@ -2,7 +2,7 @@
 
 ![](http://i.imgur.com/zTzCybb.png)
 
-Inspired by the above image, this app randomly generates _adorable_ pet names.
+Inspired by the above image, this app randomly generates straight up _adorable_ pet names.
 Examples:
 
 * Baron Snugglesnout
