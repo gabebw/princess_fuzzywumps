@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+ruby '2.3.0'
+
 gem 'erubis'
 gem 'padrino', '0.12.5'
 gem 'rake'
